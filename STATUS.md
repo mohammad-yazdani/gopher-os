@@ -18,6 +18,11 @@ steps in the project roadmap.
 - Hardware detection/abstraction layer
 	- [x] Multiboot-based HW detection 
 	- [ ] ACPI-based HW detection
+- System calls
+	- [ ] fork
+	- [ ] wait
+	- [ ] exec
+	- [ ] getpid
 
 #### Supported Go language features:
 - [x] Go allocator 
@@ -57,3 +62,8 @@ Here is a list of features planned for the future:
 - Network device drivers
 - Hypervisor support
 - POSIX-compliant VFS
+- Deploy and test ZFS
+- Transactional VM paging
+- System snapshots
+
+#### EPIC: MIPS Support
